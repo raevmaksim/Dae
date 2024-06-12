@@ -40,7 +40,9 @@ html {
  }
 
  /* Header */
-
+.header__burger {
+  display: none;
+}
 .header__offer {
   background-color: var(--accent-color);
 }
