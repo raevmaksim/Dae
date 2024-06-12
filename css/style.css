@@ -186,4 +186,46 @@ html {
   color: var(--accent-color);
 }
 
+/* Banner */
+
+.banner {
+  
+}
+.banner__position {
+  padding-top: 24px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  position: relative;
+
+}
+.banner__bg {
+  margin: 1px auto;
+  z-index: 1;
+ 
+}
+.banner__content {
+  width: 1220px;
+  background-color: #DF9B7A;
+  padding: 30px;
+  position: absolute;
+  z-index: 2;
+  bottom: 50px;    
+  left: 50%;
+  transform: translate(-50%);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.banner__content_text {
+  font-size: 20px;
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+.banner__content_link {
+  font-size: 18px;
+  color: var(--white-color);
+  text-transform: capitalize;
+}
+
+
 
