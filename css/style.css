@@ -192,7 +192,7 @@ html {
   
 }
 .banner__position {
-  padding-top: 24px;
+  padding-top: 22px;
   padding-bottom: 50px;
   margin: 0 auto;
   position: relative;
@@ -206,7 +206,7 @@ html {
 .banner__content {
   width: 1220px;
   background-color: #DF9B7A;
-  padding: 30px;
+  padding: 35px 30px;
   position: absolute;
   z-index: 2;
   bottom: 50px;    
@@ -225,7 +225,72 @@ html {
   font-size: 18px;
   color: var(--white-color);
   text-transform: capitalize;
+  text-decoration: none;
 }
+
+/* About */
+
+.about {
+  background-color: #F1D3B9;
+  padding-top: 61px;
+  padding-bottom: 61px;
+}
+.about__position {  
+  padding-left: 113px;
+  position: relative;
+}
+.about__ava {
+  z-index: 1;
+}
+.about__content {  
+  z-index: 2;
+  position: absolute;
+  padding: 50px 50px 52px;
+  top: 224px;
+  left: 53.5%;
+  width: 518px;
+  color: var(--accent-color);
+  background-color: #F8F8F8;
+  padding-top: 61px;
+}
+.about__content_title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+.about__content_text {
+  max-width: 416px;
+  font-size: 19px;
+  line-height: 30.4px;
+  margin-bottom: 45px;
+}
+.about__content_link {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Slider */
+
+.slider {
+  padding-top: 30px;
+}
+.slider__title {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 23px;
+  margin-bottom: 53px;
+}
+.slider__grid {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 9.5px;
+}
+.slider__card_img {
+}
+
+
 
 
 
